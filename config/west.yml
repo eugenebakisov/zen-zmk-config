@@ -2,15 +2,19 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: carrefinho
-      url-base: https://github.com/carrefinho
+    #- name: carrefinho
+    #  url-base: https://github.com/carrefinho
     - name: caksoylar
       url-base: https://github.com/caksoylar
-    - name: not-in-stock
-      url-base: https://github.com/not-in-stock
+    #- name: not-in-stock :C
+    #  url-base: https://github.com/not-in-stock
     - name: urob
       url-base: https://github.com/urob
   projects:
+    #- name: zmk
+    #  remote: caksoylar
+    #  revision: caksoylar/zen-v1+v2
+    #  import: app/west.yml
     - name: zmk
       remote: caksoylar
       revision: caksoylar/zen-v1+v2
@@ -20,9 +24,9 @@ manifest:
     #   repo-path: zmk
     #   revision: caksoylar/zen-v1+v2
     #   import: app/west.yml
-    - name: prospector-zmk-module
-      remote: carrefinho
-      revision: main
+    #- name: prospector-zmk-module
+    #  remote: carrefinho
+    #  revision: main
     - name: zmk-helpers
       remote: urob
       revision: main
